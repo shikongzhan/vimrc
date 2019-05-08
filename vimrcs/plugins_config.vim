@@ -141,8 +141,8 @@ let g:go_fmt_command = "goimports"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-:cmap stc SyntasticCheck<CR>
-:cmap str SyntasticReset<CR>
+:cmap syc SyntasticCheck<CR>
+:cmap syr SyntasticReset<CR>
 let g:syntastic_mode_map = { 'mode': 'passive' } 
 
 " Python

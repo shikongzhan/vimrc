@@ -135,3 +135,9 @@ endfunc
 func! CurrentFileDir(cmd)
     return a:cmd . " " . expand("%:p:h") . "/"
 endfunc
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Show 100 column high light
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%101v.\+/
