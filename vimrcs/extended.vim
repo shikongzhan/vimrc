@@ -139,5 +139,5 @@ endfunc
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Show 100 column high light
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%101v.\+/
+autocmd FileType python,cpp highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+autocmd FileType python,cpp match OverLength /\%101v.\+/
